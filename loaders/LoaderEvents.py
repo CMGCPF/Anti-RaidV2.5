@@ -1,5 +1,4 @@
-import os
-from utils.LoaderUtils import *
+from loaders.utils.LoaderUtils import *
 
 
 async def load_events(bot):
