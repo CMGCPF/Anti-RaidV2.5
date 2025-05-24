@@ -81,18 +81,12 @@ class Bot(commands.Bot):
         print("\n")
         print(f"     {Fore.GREEN}┏{'━' * (line_length - 2)}┓{Style.RESET_ALL}")
         print(f"     {Fore.GREEN}┃{' ' * (line_length - 2)}┃{Style.RESET_ALL}")
-        print(
-            f"     {Fore.GREEN}┃ {Fore.GREEN}{self.user}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'{self.user}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
-        print(
-            f"     {Fore.GREEN}┃ {Fore.GREEN}Total lignes de code : {total_lines}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'Total lignes de code : {total_lines}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
-        print(
-            f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre de serveur(s) : {len(self.server_settings_cache)}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'Nombre de serveur(s) : {len(self.server_settings_cache)}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
-        print(
-            f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre de commande(s) : {commands_count}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'Nombre de commande(s) : {commands_count}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
-        print(
-            f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre d'event(s) : {events_count}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f"Nombre d'event(s) : {events_count}"))}{Fore.GREEN}┃{Style.RESET_ALL}")
-        print(
-            f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre de vue(s) : {views_count}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f"Nombre de vue(s) : {views_count}"))}{Fore.GREEN}┃{Style.RESET_ALL}")
+        print(f"     {Fore.GREEN}┃ {Fore.GREEN}{self.user}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'{self.user}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
+        print(f"     {Fore.GREEN}┃ {Fore.GREEN}Total lignes de code : {total_lines}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'Total lignes de code : {total_lines}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
+        print(f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre de serveur(s) : {len(self.server_settings_cache)}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'Nombre de serveur(s) : {len(self.server_settings_cache)}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
+        print(f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre de commande(s) : {commands_count}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f'Nombre de commande(s) : {commands_count}'))}{Fore.GREEN}┃{Style.RESET_ALL}")
+        print(f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre d'event(s) : {events_count}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f"Nombre d'event(s) : {events_count}"))}{Fore.GREEN}┃{Style.RESET_ALL}")
+        print(f"     {Fore.GREEN}┃ {Fore.GREEN}Nombre de vue(s) : {views_count}{Style.RESET_ALL}{' ' * (line_length - 3 - len(f"Nombre de vue(s) : {views_count}"))}{Fore.GREEN}┃{Style.RESET_ALL}")
         print(f"     {Fore.GREEN}┃{' ' * (line_length - 2)}┃{Style.RESET_ALL}")
         print(f"     {Fore.GREEN}┗{'━' * (line_length - 2)}┛{Style.RESET_ALL}")
         print("\n")

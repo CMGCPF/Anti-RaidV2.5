@@ -56,7 +56,7 @@ class AntiBot(commands.Cog):
             color=discord.Color.light_embed(),
         )
         embed.set_thumbnail(url=icon_url)
-        view = LienView()
+        view = BotView()
         await ctx.send(embed=embed, view=view)
 
 
